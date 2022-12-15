@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.educacion {
+    background-color: #C0392B;
+    /* transition: background-color 3s linear; */
+    transition: margin-right 3s linear;
+}
+
+.educacion:hover {
+    background-color: #3F51B5;
+}
