@@ -10,43 +10,65 @@
     
   <body>
     
-    <nav>
-      <ul class="flex justify-end gap-8 ml-80 mt-16   mr-20 text-2xl text-white">
+    <nav class="miPresentacion">
+      <ul class="flex justify-end gap-8 ml-96 pt-16 mr-20 text-2xl text-red-900">
         
-        <li class="bg-blue-400 hover:text-red-300 hover:font-bold shadow-lg shadow-cyan-800/80 rounded-lg transition delay-150 duration-1000 ease-in py-2 px-4 "><a href="#Sobre-mi">Sobre mi</a></li>
+        <li class="bg-blue-500  font-semibold shadow-lg shadow-cyan-100/60 rounded-lg  py-2 px-4 transition duration-150 ease-in-out hover:scale-x-75 "><a href="#Sobre-mi">Sobre mi</a></li>
         
-        <li class="bg-blue-400 hover:text-red-300 hover:font-bold shadow-lg shadow-cyan-800/80 rounded-lg transition delay-150 duration-1000 ease-in py-2 px-4"><a href="#Skills">Skills</a></li>
+        <li class="bg-blue-500 font-semibold shadow-lg shadow-cyan-100/60 rounded-lg py-2 px-4 transition duration-150 ease-in-out hover:scale-x-75"><a href="#Skills">Skills</a></li>
         
-        <li class="bg-blue-400 hover:text-red-300 hover:font-bold shadow-lg shadow-cyan-800/80 rounded-lg transition delay-150 duration-1000 ease-in py-2 px-4"><a href="#Hobbies">Hobbies</a></li>
+        <li class="bg-blue-500 font-semibold shadow-lg shadow-cyan-100/60 rounded-lg  py-2 px-4 transition duration-150 ease-in-out hover:scale-x-75"><a href="#Hobbies">Hobbies</a></li>
         
-        <li class="bg-blue-400 hover:text-red-300 hover:font-bold shadow-lg shadow-cyan-800/80 rounded-lg transition delay-150 duration-1000 ease-in py-2 px-4"><a href="#Educacion">Formación</a></li>
+        <li class="bg-blue-500 font-semibold shadow-lg shadow-cyan-100/60 rounded-lg py-2 px-4 transition duration-150 ease-in-out hover:scale-x-75"><a href="#Educacion">Formación</a></li>
         
-        <li class="bg-blue-400 hover:text-red-300 hover:font-bold shadow-lg shadow-cyan-800/80 rounded-lg transition delay-150 duration-1000 ease-in py-2 px-4"><a href="#experiencia">Proyectos</a></li>
+        <li class="bg-blue-500 font-semibold shadow-lg shadow-cyan-100/60 rounded-lg  py-2 px-4 transition duration-150 ease-in-out hover:scale-x-75"><a href="#Proyectos">Proyectos</a></li>
         
-        <li class="bg-blue-400 hover:text-red-300 hover:font-bold shadow-lg shadow-cyan-800/80 rounded-lg transition delay-150 duration-1000 ease-in py-2 px-4"><a href="mailto:carmen-895@hotmail.com">contacto</a></li>
+        <li class="bg-blue-500 font-semibold shadow-lg shadow-cyan-100/60 rounded-lg  py-2 px-4 transition duration-150 ease-in-out hover:scale-x-75"><a href="mailto:carmen-895@hotmail.com">contacto</a></li>
       </ul>
+      <section id="Sobre-mi" class="me-presento text-white pt-28 pb-16"> 
+        <p class=" ml-10 mt-28 text-5xl font-bold text-green-700 italic hover:rotate-6 scale-12 translate-y-2 skew-y-12 md:transform-none">Carmen Elvira Barajas Henao</p> 
+        <p class="ml-10 mt-16 text-2xl text-lime-500">Construyo paginas web</p>
+        <p class="mt-16 ml-10 mr-52 text-4xl  text-lime-600">Soy formada en Developer FrontEnd y actualmente estoy participando del proyecto Oracle One en Alura Latam. </p>
+      </section>
+      <section class="text-white ml-10 pb-20 font-normal text-2xl mx-32">
+        <h2>Labore por mas de 25 años en empresas de artes gráficas como operaria de maquina barnizadora, maquina plegadora de papel, tambien como operaria de revision de textos y de impresion, ademas de trabajos manuales.
+        A causa de la pandemia decidi darle otro rumbo a mi vida y estudiar programacion aunque desde tiempo atras ya estaba preparandome haciendo cursos en Google Activate.
+        Gracias a Oracle One sali favorecida en la beca que ofrecen ellos y esto me sirvio para reforzar más mi   aprendizaje, estoy preparandome cada día para poder tener la oportunidad de tener un empleo como Developer FrontEnd</h2>
+      </section>
     </nav>
-    <section id="Sobre-mi" class="bg-gradient-to-r from-blue-900 via-purple-900 to-pink-900 w-auto h-auto text-white">
-      <p class="ml-10 mt-10 text-2xl">Mi nombre es</p>
-      <p class="ml-10 mt-10 text-3xl">Carmen Elvira Barajas Henao</p>
-      <p class="ml-10 mt-10 text-xl">Construyo paginas web</p>
-      <p class="ml-10 mt-3">Soy formada en Developer FrontEnd y actualmente estoy participando del proyecto Oracle One en
-        Alura Latam. </p>
-    </section> 
     
-    <section id="Skills" class=" w-auto h-auto text-white pt-10 pb-10">
-      <img src="./img/javascript.svg" alt="javasCript" class="w-30 h-30">
-      <img src="./img/webpack.svg" alt="webpack" class="w-30 h-30">
-      <img src="./img/html.png" alt="html" class="w-30 h-30">
-      <img src="./img/css.png" alt="css" class="w-30 h-30">
-      <img src="./img/tailwind-css.svg" alt="tailwind" class="w-12 h-12">
-      <img src="./img/bootstrap.svg" alt="bootstrap" class="w-12 h-12">
+    
+    <section id="Skills" class="flex justify-around bg-black auto h-auto text-white pt-36 pb-32">
+      <div>
+        <img src="./img/javascript.svg" alt="javasCript" class="w-20 h-20">
+        <p>javasCript</p>
+      </div>
+      <div>
+        <img src="./img/webpack.svg" alt="webpack" class="w-20 h-20">
+        <p>Webpack</p>
+      </div>
+      <div>
+        <img src="./img/html.png" alt="html" class="w-20 h-20">
+        <p>HTML 5</p>
+      </div>
+      <div>
+        <img src="./img/css.png" alt="css" class="w-20 h-20">
+        <p>CSS</p>
+      </div>
+      <div>
+        <img src="./img/tailwind-css.svg" alt="tailwind" class="w-20 h-20">
+        <p>tailwind-css</p>
+      </div>
+      <div>
+        <img src="./img/bootstrap.svg" alt="bootstrap" class="w-20 h-20">
+        Bootstrap
+      </div> 
     </section>
 
-    <section id="Hobbies" class="bg-sky-200 w-auto h-auto text-white pt-10 pb-10">
-      <img src="./img/series.png" alt="series" class="w-12 h-12">
-      <img src="./img/pintar.png" alt="pintar" class="w-12 h-12">
-      <img src="./img/mucica.png" alt="mucica" class="w-12 h-12">
+    <section id="Hobbies" class="flex justify-around bg-indigo-300 w-auto h-auto  text-white pt-36 pb-36">
+      <img src="./img/series.png" alt="series" class="w-32 h-32">
+      <img src="./img/pintar.png" alt="pintar" class="w-32 h-32">
+      <img src="./img/mucica.png" alt="mucica" class="w-32 h-32">
     </section>
 
     <section id="Educacion" class="educacion flex justify-evenly pt-10 bg-lime-300 w-auto h-auto text-white ">
@@ -59,6 +81,24 @@
       <img src="./img/Platzi.jpg" alt="logo-platzi" class="w-48 h-40 bg-white">
       <img src="./img/leonidas.jpg" alt="logo-leonidas-esteban" class="w-48 h-40 bg-white">
       <img src="./img/logo-google-activate.png" alt="logo-google-activate" class="w-48 h-40 bg-white">
+    </section>
+
+    
+    <section id="Proyectos" class="experiencia bg-violet-200 w-auto h-auto ">
+      <div class="experiencia-alura flex justify-evenly">
+        <img src="./img/encriptador-imagen.png" alt="encriptador" class="pt-20 pb-14">
+        
+        <div class="pt-56">
+          <h2 class="text-blue-800 text-4xl">Encriptador de texto</h2>
+          <h3 class="text-blue-800 text-4xl">Challenge Oracle</h3>
+          
+          <!-- target="_blank" lo utilizo para cuando doy click en el repositorio me lleve directamente a el y no estar saliendo y cargando de nuevo la pagina que estoy creando -->
+          <span class="experiencia"><a href="https://github.com/barajash70/encriptador"  target="_blank"><button
+          class="experiencia-repositorio bg-blue-500 w-48 h-14 mt-96 rounded-3xl text-2xl text-white">Repositorio</button></a></a></span>
+          <span class="experiencia"><a href="https://barajash70.github.io/encriptador/"  target="_blank"><button class="bg-white w-48 h-14 ml-4 rounded-3xl text-2xl text-blue-500">Ver demo</button></a></span>
+        </div>
+        
+      </div>
     </section>
 
 

@@ -2,13 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --clippy: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+
+.miPresentacion {
+    background-color: rgb(34, 25, 25);
+}
+
+
+.nombre::before:hover:before {
+    clip-path: polygon(0 0, 99% 0, 99% 100%, 0 100%);
+}
 
 .educacion {
-    background-color: #C0392B;
-    /* transition: background-color 3s linear; */
-    transition: margin-right 3s linear;
+    background-color: #453c3b;
+    transition: background-color 3s linear;
+
 }
 
 .educacion:hover {
-    background-color: #3F51B5;
+    background-color: #2f344f;
+    transition: margin-right 2s linear;
 }
