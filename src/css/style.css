@@ -26,3 +26,12 @@
     background-color: #2f344f;
     transition: margin-right 2s linear;
 }
+
+.linea {
+    margin-top: 8rem;
+    height: 2px;
+    background-color: rgb(156, 159, 158);
+    border-color: rgb(68, 69, 69);
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
